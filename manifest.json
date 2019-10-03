@@ -5,14 +5,7 @@
   "background_color": "#2196f3",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "/",
-  "prefer_related_applications": false,
-"related_applications": [
-  {
-    "platform": "play",
-    "id": "com.google.samples.apps.iosched"
-  }
-],
+  "start_url": "/pwa-app/index.html",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
@@ -49,12 +42,11 @@
       "sizes": "384x384",
       "type": "image/png"
     },
-
     {
       "src": "images/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
- 
+  ],
+  "splash_pages": null
 }
