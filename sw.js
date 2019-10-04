@@ -35,14 +35,14 @@ self.addEventListener('fetch', function(event) {
 });
 let deferredPrompt;
 
-window.addEventListener('beforeinstallprompt', (e) => {
-  // Stash the event so it can be triggered later.
-  deferredPrompt = e;
+// window.addEventListener('beforeinstallprompt', (e) => {
+//   // Stash the event so it can be triggered later.
+//   deferredPrompt = e;
   
-});
-window.addEventListener('appinstalled', (evt) => {
-  console.log('a2hs installed');
-});
+// });
+// window.addEventListener('appinstalled', (evt) => {
+//   console.log('a2hs installed');
+// });
 btnAdd.addEventListener('click', (e) => {
   // hide our user interface that shows our A2HS button
   btnAdd.style.display = 'none';
